@@ -65,7 +65,7 @@
 
                         <li class="nav__item">
                             <a href="#portfolio" class="nav__link">
-                                <i class="uil uil-scenery nav__icon"></i> Projects
+                                <i class="uil uil-scenery nav__icon"></i> Portfolio
                             </a>
                         </li>
 
@@ -161,7 +161,7 @@
             </section>
 
             <section class="about section" id="about">
-                <h2 class="section__title">About Me</h2>
+                <h2 class="section__title2">About Me</h2>
                 <span class="section__subtitle"></span>
 
                 <div class="about__container container grid">
@@ -170,9 +170,11 @@
                     <div class="about__data">
                         <div class="about__description">
                             <p>
-                                I'm a passionate & proactive individual with experience of 3+ years in Machine/Deep Learning, Data Science,
-                            & Big Data Analytics. My academic research revolves around the mitigation of the Class Imbalance Problem in Machine Learning. I have published articles and research papers in various journals and international conferences.
-                            Additionally, I have contributed as a peer reviewer for esteemed journals, including the IEEE Transactions on Neural Networks and Learning Systems, IEEE, and Expert Systems with Applications, Elsevier.
+                                I'm a dedicated & proactive individual with experience of 3+ years in Machine Learning, Deep Learning, Data Science,
+                            & Big Data Analytics. 
+                
+                            My academic research revolves around the mitigation of the Class Imbalance Problem in Machine Learning. I have published articles and research papers in various journals and international conferences.
+                            Notably, I have contributed as a peer reviewer for esteemed journals, including IEEE Transactions on Neural Networks and Learning Systems, IEEE, and Expert Systems with Applications, Elsevier.
                             </p> 
                             
                             <p>
@@ -198,11 +200,11 @@
                             </div>
                         </div> -->
 
-                        <div class="about__buttons">
+                        <!-- <div class="about__buttons">
                             <a href="#contact" class="button button--flex">
                                 Leave a message <i class="uil uil-comment-download button__icon"></i>
                             </a>
-                        </div>
+                        </div> -->
 
                     </div>
                 </div>
@@ -1128,7 +1130,7 @@
                 </div>
             </section> -->
 
-            <section class="project section">
+            <!-- <section class="project section">
                 <div class="project__bg">
                     <div class="project__container container grid">
                         <div class="project__data">
@@ -1146,10 +1148,10 @@
                         <img src="./assets/img/collab.svg" alt="Web Development vector art taken from internet symbolizing services that I do. Credits to original author" class="project__img">
                     </div>
                 </div>
-            </section>
+            </section> -->
 
             <section class="portfolio section" id="portfolio">
-                <h2 class="section__title">Projects</h2>
+                <h2 class="section__title">Portfolio</h2>
                 <span class="section__subtitle">My works & contributions</span>
 
                 <div class="portfolio__container container swiper-container">
@@ -1169,6 +1171,53 @@
                                     <button class="techstack-button">Jupyter Notebook</button>
                                 </div>
                                 <a href="https://github.com/saranyab21/CureTalk" class="button button--flex button--small portfolio__button">
+                                    View
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="./assets/img/BraintumorSSL.png" alt="Flow Diagram vector art" class="portfolio__img">
+    
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Improving Brain Tumor Classification using Semi-Supervised Latent Space Learning</h3>
+                                <p class="portfolio__description">
+                                    The study tackles the scarcity of labeled data in training deep learning models for brain tumor classification from MRI images. The approach employs a Variational Autoencoder for latent representation learning and utilizes a semi-supervised strategy, combining a small labeled set with a larger pool of unlabeled data through self-training. 
+                                    Evaluation on binary and multi-class tumor datasets demonstrates competitive performance compared to fully-supervised baselines and state-of-the-art semi-supervised frameworks.</p>
+                                <div class="portfolio__techstack">
+                                    <button class="techstack-button">Deep Learning</button>
+                                    <button class="techstack-button">Semi-Supervised Learning</button>
+                                    <button class="techstack-button">Variational Autoencoders</button>
+                                    <button class="techstack-button">Generative AI</button>
+                                    <button class="techstack-button">Python</button>
+                                    <button class="techstack-button">Medical AI</button>
+                                    <button class="techstack-button">Jupyter Notebook</button>
+                                </div>
+                                <a href="https://github.com/saranyab21/CureTalk" class="button button--flex button--small portfolio__button">
+                                    View
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="./assets/img/pneumonia.png" alt="" class="portfolio__img">
+    
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Pneumonic - Transfer Learning-based Pneumonia Detection using Chest X-ray images </h3>
+                                <p class="portfolio__description">The study presents a CNN-based transfer learning approach using different pre-trained models (Resnet50, DenseNet, VGG16, InceptionV3) to detect pediatric pneumonia and classify bacterial and viral pneumonia with higher accuracy.
+                                    With exceptional Recall (99.23%) and F1 Score (92.53%), the approach accelerates diagnosis, refining clinical outcomes by promptly identifying treatable conditions.</p>
+                                
+                                    <div class="portfolio__techstack">
+                                        <button class="techstack-button">Python</button>
+                                        <button class="techstack-button">Jupyter Notebook</button>
+                                        <button class="techstack-button">Deep Learning</button>
+                                        <button class="techstack-button">Computer Vision</button>
+                                        <button class="techstack-button">Data Visualization</button>
+                                    </div>
+
+                                    <a href="https://github.com/saranyab21/Transfer-Learning-based-Pneumonia-Detection" class="button button--flex button--small portfolio__button">
                                     View
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
@@ -1206,29 +1255,6 @@
                             </div>
                         </div>
                         
-
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="./assets/img/pneumonia.png" alt="" class="portfolio__img">
-    
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Pneumonic - Transfer Learning-based Pneumonia Detection using Chest X-ray images </h3>
-                                <p class="portfolio__description">The study presents a CNN-based transfer learning approach using different pre-trained models (Resnet50, DenseNet, VGG16, InceptionV3) to detect pediatric pneumonia and classify bacterial and viral pneumonia with higher accuracy.
-                                    With exceptional Recall (99.23%) and F1 Score (92.53%), the approach accelerates diagnosis, refining clinical outcomes by promptly identifying treatable conditions.</p>
-                                
-                                    <div class="portfolio__techstack">
-                                        <button class="techstack-button">Python</button>
-                                        <button class="techstack-button">Jupyter Notebook</button>
-                                        <button class="techstack-button">Deep Learning</button>
-                                        <button class="techstack-button">Computer Vision</button>
-                                        <button class="techstack-button">Data Visualization</button>
-                                    </div>
-
-                                    <a href="https://github.com/saranyab21/Transfer-Learning-based-Pneumonia-Detection" class="button button--flex button--small portfolio__button">
-                                    View
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
 
                         <div class="portfolio__content grid swiper-slide">
                             <img src="./assets/img/payroll.svg" alt="" class="portfolio__img">
